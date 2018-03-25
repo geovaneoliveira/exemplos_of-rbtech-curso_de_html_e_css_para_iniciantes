@@ -1,0 +1,14 @@
+h1{
+    color: orange;
+    letter-spacing: 2px;
+    text-transform: capitalize; /*Deixa a primeira letra de cada palavra em maiuscula*/
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    text-indent: 50px;
+    width: 650px;
+    font-size: 18px;
+    font-family: verdana, arial, sans-serif;
+}
