@@ -32,24 +32,38 @@
     </div>
     <div class="linha">
         <section>
-            <div class="coluna col3 sidebar">
-                <h3>Clientes Satisfeitos</h3>
-                <ul class="sem-marcador sem-padding">
-                    <li><a href="">Nome da Empresa 1</a></li>
-                    <li><a href="">Nome da Empresa 2</a></li>
-                    <li><a href="">Nome da Empresa 3</a></li>
-                    <li><a href="">Nome da Empresa 4</a></li>
-                    <li><a href="">Nome da Empresa 5</a></li>
-                    <li><a href="">Nome da Empresa 6</a></li>
-                    <li><a href="">Nome da Empresa 7</a></li>
+            <div class="coluna col5 sidebar">
+                <h3>Localização</h3>
+                <img src="img/mapa.jpg" alt="">
+                <ul class="sem-padding sem-marcador">
+                    <li>Rua Machado de Assis, 121</li>
+                    <li>Bairro Moinho</li>
+                    <li>Possibilidades</li>
                 </ul>
-                <a href="clientes.html" class="botao">Ver todos &raquo;</a>
+                <h3>Contato direto</h3>
+                <ul class="sem-padding sem-marcador">
+                    <li>Fone: <strong>(00) 9999-9999</strong></li>
+                    <li>Email: <strong>contato@rbernardi.com</strong></li>
+                    <li>Skype: <strong>login.skype</strong></li>
+                </ul>
             </div>
-            <div class="coluna col3">
-                <h2>Último trabalho: <em>Empresa ABC</em></h2>
-                <img src="img/thumb-grande.jpg" alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh nec eros mollis venenatis eget eu quam. In eros mi, interdum eu elit eu, placerat pretium sapien. Aenean maximus justo mauris, sed viverra sapien laoreet in. Donec lorem lorem, sodales id erat in, tempus fringilla erat. Pellentesque facilisis urna ut fermentum accumsan. Quisque eget massa sit amet eros feugiat sodales.</p>
-                <a href="clientes.html" class="botao">Ver outros trabalhos &raquo;</a>
+            <div class="coluna col7">
+                <h2>Envie uma mensagem</h2>
+                <form action="">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" name="nome" id="nome" />
+
+                    <label for="email">Seu email:</label>
+                    <input type="text" name="email" id="email" />
+
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" name="assunto" id="assunto" />
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="email" ></textarea>
+
+                    <input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;" />
+                </form>
             </div>
         </section>
     </div>
@@ -57,10 +71,13 @@
         <div class="linha">
             <div class="coluna col7">
                 <section>
-                    <h2>Como um site pode ajudar a sua empresa</h2>
-                    <p>dLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh nec eros mollis venenatis eget eu quam. In eros mi, interdum eu elit eu, placerat pretium sapien. Aenean maximus justo mauris, sed viverra sapien laoreet in. Donec lorem lorem, sodales id erat in, tempus fringilla erat. Pellentesque facilisis urna ut fermentum accumsan. Quisque eget massa sit amet eros feugiat sodales.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh nec eros mollis venenatis eget eu quam. In eros mi, interdum eu elit eu, placerat pretium sapien. Aenean maximus justo mauris, sed viverra sapien laoreet in. Donec lorem lorem, sodales id erat in, tempus fringilla erat. Pellentesque facilisis urna ut fermentum accumsan. Quisque eget massa sit amet eros feugiat sodales.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh nec eros mollis venenatis eget eu quam. In eros mi, interdum eu elit eu, placerat pretium sapien. Aenean maximus justo mauris, sed viverra sapien laoreet in. Donec lorem lorem, sodales id erat in, tempus fringilla erat. Pellentesque facilisis urna ut fermentum accumsan. Quisque eget massa sit amet eros feugiat sodales.</p>
+                    <h2>Método alternativo de contato</h2>
+                    <p>dLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh nec eros mollis venenatis eget eu quam.</p>
+                    <ol>
+                        <li>Enviar uma mensagem de uma garrafa</li>
+                        <li>Tentar um sinal de fumaça</li>
+                        <p>Mas sinceramente n´~ao sei se um desses métodos será eficiente, tente por sua conta e risco.</p>
+                    </ol>
                 </section>
             </div>
             <div class="coluna col5">
@@ -88,7 +105,9 @@
     <div class="footer">
         <div class="linha">
             <footer>
-                <div class="coluna col12"><spam>&copy; 2014 - RBernardi Desenvolvimento Web</spam></div>
+                <div class="coluna col12">
+                    <spam>&copy; 2014 - RBernardi Desenvolvimento Web</spam>
+                </div>
             </footer>
         </div>
     </div>
