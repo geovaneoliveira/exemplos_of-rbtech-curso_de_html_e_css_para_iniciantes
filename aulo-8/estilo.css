@@ -1,0 +1,22 @@
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: helvetica, sans-serif;
+}
+
+a {
+    color: yellow;
+
+}/*ultimo sobrescreve os primeiros por ser em cascata*/
+
+#segundo{
+    color: orange;
+}/*id é unico para o documento*/
+
+a.link{/*possivel especializar*/
+    color: green;
+}/*classe é diferente do id pois pode ser usada em vários locais do css*/
