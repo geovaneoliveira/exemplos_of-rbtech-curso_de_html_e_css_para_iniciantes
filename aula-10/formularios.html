@@ -1,0 +1,30 @@
+<!Doctype html>
+
+<html>
+
+<head>
+    <title>Título da página</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+    <form action="" method="get"><!--post envia por baixo dos panos, get: dá pra ver na barra de endereços-->
+        
+        <label for="nome">Nome: </label>
+        <input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+
+        <label for="opcao">Você gostou do site?</label>
+        <input type="radio" name="opcao" value="sim" checked="checked" />Sim
+        <input type="radio" name="opcao" value="nao"/>Não
+
+        <label for="linguagem">Você quer aprender mais sobre: </label>
+        <input type="checkbox" name="html" />HTML
+        <input type="checkbox" name="css" />CSS
+
+          <textarea name="msg" id=""></textarea>
+       
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
